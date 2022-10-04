@@ -2,7 +2,7 @@
 //console.log("");
 //document.write("");
 
-let tabuada = 8;
+var tabuada = 8;
 
 function meChame(nome){
     document.write("<h1>Tabuada do " + tabuada + "</h1>");
@@ -18,4 +18,16 @@ function meChame(nome){
     document.write(tabuada + " x 10 = "+(tabuada*10)+"<br");
     document.write("Feita por " + nome);
     
+}
+
+function escreva(){
+    for(var i = 1; i < 11; i++){
+        document.write(tabuada + " x " + i + " = "+(tabuada*i)+"<br>");
+    }
+}
+
+function quadrado(){
+    for(var i = 2; i < 101; i++){
+        document.write("O Quadrado de " + i + " é " + (i*i)+ "<br>")
+    }
 }
