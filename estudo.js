@@ -70,4 +70,3 @@ function total() {
     document.getElementById("resultado").innerHTML = "Total: " + moeda(resultado);
     //document.write( "O Resultado é " + moeda(resultado) );
 }
-
